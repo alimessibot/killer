@@ -243,14 +243,18 @@ function create_config( )
     "filterword",
     "lock_join"
     },
-    sudo_users = {142314165},--Sudo users
+    sudo_users = {144132967,107264463},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-https://github.com/BH-YAGHI/NOD32-BOT.git
+HellBot is Here.
+an Anti Spam bot 
 
-channel : @Nod32team
-sodu : @behrooZyaghi
+Admins:
+@Hell_admin1
+@TnT_BoY1 
+Our channel:
+https://telegram.me/Hell_Bot_channel
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -317,174 +321,110 @@ This command will send text to [group_id]
 
 ]],
     help_text = [[
-NOD32 Commands list :
- 
-1-banhammer list ^
- 
+Commands list of HellBot :
+
 !kick [username|id]
-(کیک کردن شخص (حتی با ریپلی)
+حذف کردن کسی . همچنین با ریپلی هم میتونین🚫
 
 !ban [ username|id]
-(بن کردن افراد (حتی با ریپلی)
+بن کردن کسی . همچنین با ریپلی هم میتونین🚫
 
 !unban [id]
-(انبن کردن افراد (همراه ایدی)
-
-!kickme
-خروج از گروه
-
-2-Statistics list ^
+آنبن کردن کسی . همچنین با ریپلی هم میتونین🔓
 
 !who
-لیست+ایدی همه اعضا
-
-!stats
-امار کلی گروه
+📝آی دی لیست اعضای گروه📋
 
 !modlist
-لیست مدیران گروه
-
-!banlist
-لیست اعضا بن شده
-
-3-Rate Member ^
-
-!setowner [id]
-(id ایجاد مدیر جدید (همراه 
+🔱لیست ادمین های این گروه🔱
 
 !promote [username]
-(ایجاد ادمین جدید (همراه ریپلی)
+🔱ادمین کردن کسی در این گروه🔱
 
 !demote [username]
-(برکنار کردن ادمین (همراه ریپلی)
+صلب ادمینی از کسی در این گروه🚫
 
-4-General changes ^
-
-!setname [name]
-ایجاد اسم جدید برای گروه
-
-!setphoto
-ایجاد عکس جدید برای پروفایل گروه
-
-!set rules <text>
-ایجاد قانون جدید برای گروه
-
-!set about <text>
-ایجاد درباره گروه
-
-!setflood [value]
-حساسیت به اسپم در گروه
-
-5-View details ^
+!kickme
+خودت را کیک کن🔫
 
 !about
-درباره گروه
+در مورد گروه📢
+
+!setphoto
+عکس گروه را تغییر بده🎇
+
+!setname [name]
+اسم گروه را تغییر بده💥
 
 !rules
-قوانین گروه
-
-!settings
-دیدن تنظیمات فعلی گروه
-
-!help
-لیست دستورات ربات
-
-6-Security Group ^
-
-!filter + word
-فیلتر کلمه مورد نظر
-
-!filter - word
-حذف فیلتر کلمه مورد نظر
-
-!lock member 
-قفل ورود اعضا جدید
-
-!lock join
-قفل ورود اعضا جدید توسط لینک
-
-!lock name
-قفل اسم گروه
-
-!lock leave
-قفل خروج=بن گروه
-
-!lock arabic
-قفل چت ممنوع گروه
-
-!unlock 
-[member*name*leave]
-[link*tag*arabic*bots]
-باز کردن دستورات قفل شده
-
-7-Fun time ^
-
-!time country city
-ساعت کشور مورد نظر
-
-!loc country city
-مشخصات کشور و شهر مورد نظر
-
-!google
-سرچ مطلب مورد نظر از گوگل
- 
- !gps
- مکان کشور , شهر مورد نظر تحت گوگل
-
-8-Service Provider ^
-
-!newlink
-ایجاد لینک جدید
-
-!link
-نمایش لینک گروه
-
-!linkpv
-فرستادن لینک گروه تو پیوی
-(حتما شماره ربات را سیو کنید)
-
-!invite username
-اضافه کردن شخص تو گروه
-(حتما شماره ربات را سیو کرده باشد)
-
-9-Member Profile and Group ^
-
-!owner
-مدیر گروه
+نمایش قوانین گروه🔥
 
 !id
-ایدی شخص مورد نظر
+ای دی گروه را بده🔥
 
-!res [username]
-در اوردن ایدی شخص مورد نظر
+!id
+با ریپلی کردن ای دی شخص را بگیر😼
 
-!info 
-مخشصات فرد مورد نظر
+!lock [member|name|bots]
+قفل کن [ آمدن اعضا ,  اسم , آمدن ربات ] 🔐
+
+!unlock [member|name|photo|bots]
+از قفل دربیار [ اسم , عکس , آمدن اعضا , آمدن ربات ] 🔓
+
+!set rules <متن>
+قوانین گروه را نمایش بده🔱
+!set about <متن>
+درباره ی گروه چیزی بنویس🔄
 
 !settings
-تنظیمات فعلی گروه
+تنظیمات گروه را بدهℹ️
 
-10-bot number & support ^
+!newlink
+لینک جدید بساز🆕
 
-!share
-دریافت شماره ربات
+!link
+لینک گږۅه ږۅ بـــــڍه✳️
 
-!support
-وصل شدن به ساپورت
+!owner
+صاحب گروه ڪیــــــــــست؟❗️
 
-!version
-ورژن ربات
+!setowner [id]
+✔️صاحب گروه را عوض کن✔️
 
-you can use both "/" and "!" 
-.شما میتوانید از ! و / استفاده کنید
+!setflood [عدد]
+🔱تعداد پیام هایی که همزمان میتوانند بدهند را تغییر بده🔱
 
-Developer: @behroozYaghi
-توسعه دهنده
+!stats
+🔱آمار را بده🔱
 
-channel: @nod32team
-کانال ما
+!save [ کلمه ] < Matn >
+♻️در مورد کلمه ای متنی را ثبت کن♻️
 
-G00D LUCK ^_^
+!get [کلمه]
+✅متن ثبت شده در مورد کلمه را بگیر✅
+
+!clean [modlist|rules|about]
+🚫پاک کردن [ ادمین های یک گروه , قوانین گروه , در مورد گروه ] ⛔️
+
+!res [username]
+اطلاعات شخصی را بگیر
+"!res @username"
+🆔بجای یوزر نیم ای دی شخص را بگزار🆔
+
+
+!log
+✅عملیات انجام شده گروه را بده✅
+
+!banlist
+⛔️لیست بن شده ها را بده🚫
+
+♦️ میتوانید از کماند ها هم با شکلک های ! / دستور بدهید
+
+♦️فقط سازنده گروه و ادمین گروه قادر به ادد کردن ربات هست
+
+♦️ فقط ادمین های گروه و سازنده میتواند دستورات مختص گروه را تغییر دهد مانند : تغییر اسم , عکس , قفل کردن , گرفتن لینک و ... را
+
+♦️فقط سازنده میتواند به جای خودش سازنده بگزارد یا کسی را ادمین گروه کند یا صلب ادمینی بکند یا عملیات گروه را بگیرد
 ]]
   }
   serialize_to_file(config, './data/config.lua')
