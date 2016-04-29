@@ -3,13 +3,13 @@ do
 function run(msg, matches)
   return 'Telegram Bot '.. VERSION .. [[ 
  
-  Developer : @behroozyaghi
+  Developer : @Xx_fire_boy_eblis_xX                                 @kos_khahare_zendegi
   
-  channel : @nod32team
+  channel : comming soon
   
-  open git : https://github.com/BH-YAGHI/NOD32-BOT.git
   
-  NOD32 VERSION 4.5
+  
+  Telekiller VERSION 4.5
   
   All rights reserved.]]
 end
