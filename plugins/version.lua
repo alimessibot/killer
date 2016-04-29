@@ -1,15 +1,15 @@
 do
 
 function run(msg, matches)
-  return 'Telegram Bot '.. VERSION .. [[ 
+  return '☠Telekiller Bot ☠'.. VERSION .. [[ 
  
-  Developer : @Xx_fire_boy_eblis_xX                                 @kos_khahare_zendegi
+  🏅 sudo users 🏅: @Xx_fire_boy_eblis_xX                                 @kos_khahare_zendegi
   
-  channel : comming soon
+  ⛓channel⚙ : :/
   
   
   
-  Telekiller VERSION 4.5
+  ☠Telekiller VERSION 4.5☠
   
   All rights reserved.]]
 end
