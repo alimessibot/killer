@@ -7,7 +7,7 @@ function run(msg, matches)
   
   ⛓channel⚙ : :/
   
-  
+   💥created by Eblis team💥
   
   ☠Telekiller VERSION 4.5☠
   
